@@ -1,0 +1,47 @@
+.DS_Store
+
+dist/
+*.out
+*.out.js
+*.out.js.mem
+*.dSYM/
+*.app/
+*.xcarchive/
+*.ipa
+
+# Android
+bin/
+gen/
+libs/
+obj/
+build.xml
+local.properties
+project.properties
+proguard.cfg
+proguard-project.txt
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Xcode
+*.xcworkspace
+xcuserdata/
+build/
+
+# Cocoapods
+Pods/
+
+# Android Studio
+.idea/
+.gradle/
+build/
+*.iml
+
+# CLION
+.idea/
+cmake-build-debug
+cmake-build-release
