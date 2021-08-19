@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Export View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ExportViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mKI-rh-Dsq" userLabel="Title Label">
+                                <rect key="frame" x="20" y="64" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94a-gy-Bqa" userLabel="Share Button">
+                                <rect key="frame" x="187" y="118" width="40" height="30"/>
+                                <state key="normal" title="Share">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwU-NM-wLF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jO1-xp-BOI" userLabel="Save Button">
+                                <rect key="frame" x="190" y="168" width="34" height="30"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xyI-xj-KU6"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="bwi-ej-PUN" userLabel="Activity Indicator">
+                                <rect key="frame" x="197" y="123" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="94a-gy-Bqa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="J6U-g7-GJK"/>
+                            <constraint firstItem="mKI-rh-Dsq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="T76-CM-4uS"/>
+                            <constraint firstItem="mKI-rh-Dsq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="VYg-oD-Yf9"/>
+                            <constraint firstItem="94a-gy-Bqa" firstAttribute="top" secondItem="mKI-rh-Dsq" secondAttribute="bottom" constant="20" id="YdZ-5U-OcM"/>
+                            <constraint firstItem="jO1-xp-BOI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aJm-7e-lRz"/>
+                            <constraint firstItem="mKI-rh-Dsq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dql-lK-0Q2"/>
+                            <constraint firstItem="jO1-xp-BOI" firstAttribute="top" secondItem="94a-gy-Bqa" secondAttribute="bottom" constant="20" id="eQs-Ag-1c0"/>
+                            <constraint firstItem="94a-gy-Bqa" firstAttribute="centerX" secondItem="bwi-ej-PUN" secondAttribute="centerX" id="hY9-Sc-g8e"/>
+                            <constraint firstItem="94a-gy-Bqa" firstAttribute="centerY" secondItem="bwi-ej-PUN" secondAttribute="centerY" id="wpk-8H-Vsw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="bwi-ej-PUN" id="Zzw-UN-WoU"/>
+                        <outlet property="shareButton" destination="94a-gy-Bqa" id="ggx-z4-0Ik"/>
+                        <outlet property="titleLabel" destination="mKI-rh-Dsq" id="YPc-bN-N7p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="139"/>
+        </scene>
+    </scenes>
+</document>

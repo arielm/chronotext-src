@@ -1,0 +1,28 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+
+DEPENDENCIES:
+  - FMDB
+  - Parse
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - FMDB
+    - Parse
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+
+PODFILE CHECKSUM: eba8941dac2f0795aeb232c118327a1f8d9b4503
+
+COCOAPODS: 1.9.3
