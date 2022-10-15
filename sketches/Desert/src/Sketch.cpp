@@ -5,10 +5,10 @@ using namespace std;
 using namespace chr;
 using namespace gl;
 
-constexpr float BORDER_HM = 480;
-constexpr float BORDER_HP = 480;
-constexpr float BORDER_VM = 176;
-constexpr float BORDER_VP = 300;
+constexpr float BORDER_HM = 480; // horizontal-minus
+constexpr float BORDER_HP = 480; // horizonal-plus
+constexpr float BORDER_VM = 176; // vertical-minus
+constexpr float BORDER_VP = 300; // vertical-plus
 
 constexpr float TERRAIN_H = 150;
 
@@ -71,7 +71,6 @@ void Sketch::draw()
     patch.setup(viewOX - BORDER_HM, viewOY - BORDER_VM, BORDER_HM + BORDER_HP, BORDER_VM + BORDER_VP, NoisePatch::MODE_FILL | NoisePatch::MODE_GRID_H);
     patch.update(TERRAIN_H, glm::vec2(0));
 
-    glDepthMask(GL_TRUE);
     glEnable(GL_POLYGON_OFFSET_FILL);
     glPolygonOffset(4.0f, 1.0f);
 

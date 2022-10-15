@@ -109,7 +109,6 @@ void NoisePatch::update(float height, const glm::vec2 &offset)
   for (int iy = 0; iy < ny; iy++)
   {
     float y = (oy1 + iy) * surface->gridSize;
-
     for (int ix = 0; ix < nx; ix++)
     {
       float x = (ox1 + ix) * surface->gridSize;
