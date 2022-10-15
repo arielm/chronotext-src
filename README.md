@@ -5,6 +5,7 @@ Based on [chronotext-cross](https://github.com/arielm/chronotext-cross) for infr
 Source code for the chronotext experiments:
 - [TextNoise](sketches/TextNoise)
 - [SpiralLandscape](sketches/SpiralLandscape)
+- [Desert](sketches/Desert)
 
 ***
 
