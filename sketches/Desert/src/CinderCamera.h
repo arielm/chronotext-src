@@ -1,3 +1,7 @@
+/*
+ * BASED ON https://github.com/cinder/Cinder/blob/master/include/cinder/Camera.h
+ */
+
 #pragma once
 
 #include "chr/glm.h"
