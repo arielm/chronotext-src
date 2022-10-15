@@ -7,6 +7,7 @@ Source code for the chronotext experiments:
 - [SpiralLandscape](sketches/SpiralLandscape)
 - [Desert](sketches/Desert)
 - [Cliffs](sketches/Cliffs)
+- [Water](sketches/Water)
 
 ***
 
