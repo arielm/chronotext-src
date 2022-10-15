@@ -6,6 +6,7 @@ Source code for the chronotext experiments:
 - [TextNoise](sketches/TextNoise)
 - [SpiralLandscape](sketches/SpiralLandscape)
 - [Desert](sketches/Desert)
+- [Cliffs](sketches/Cliffs)
 
 ***
 
