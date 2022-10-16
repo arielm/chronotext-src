@@ -8,6 +8,7 @@ Source code for the chronotext experiments:
 - [Desert](sketches/Desert)
 - [Cliffs](sketches/Cliffs)
 - [Water](sketches/Water)
+- [TopographicText](sketches/TopographicText)
 
 ***
 
