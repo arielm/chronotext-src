@@ -38,17 +38,15 @@ void Sketch::setup()
 
   // ---
 
-  surface.generateBase();
-
   spiral.enableWire(true);
   spiral.enablePath(true);
   spiral.setSampleSize(1.5f);
   spiral.setSamplingTolerance(0.0025f);
   spiral.path.setSampling(FollowablePath3D::SAMPLING_CONTINUOUS);
-
   spiral.setDirection(font->getDirection());
   spiral.setup(R1, R2, TURNS, DD1, DD2);
 
+  surface.generateBase();
   generateSpiral();
 
   animClock->start();
@@ -114,8 +112,6 @@ void Sketch::generateSpiral()
 {
   spiral.update(surface, TERRAIN_H);
 
-  // ---
-
   float offset = 0;
   float offsetY = font->getOffsetY(XFont::ALIGN_MIDDLE);
   Matrix matrix;
@@ -125,7 +121,7 @@ void Sketch::generateSpiral()
   for (auto c : text)
   {
     int glyphIndex = font->getGlyphIndex(c);
-    float halfWidth = font->getGlyphAdvance(glyphIndex) * 0.5f;
+    float halfWidth = font->getGlyphAdvance(glyphIndex) / 2;
     offset += halfWidth;
 
     if (glyphIndex >= 0)

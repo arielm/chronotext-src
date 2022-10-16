@@ -15,7 +15,7 @@ public:
   NoiseSurfaceSpiral2();
 
   void setup(float r1, float r2, float turns, float DD1, float DD2);
-  void update(const NoiseSurface &surface, float height, const glm::vec2 &offset = glm::zero<glm::vec2>());
+  void update(const NoiseSurface &surface, float height, const glm::vec2 &offset = glm::vec2(0));
 
   void enableWire(bool enable);
   void enablePath(bool enable);
@@ -29,7 +29,7 @@ protected:
   bool pathEnabled = false;
 
   float direction = 1;
-  float sampleSize;
+  float sampleSize = 1;
   float samplingTolerance = 1;
 
   std::vector<glm::vec2> points;

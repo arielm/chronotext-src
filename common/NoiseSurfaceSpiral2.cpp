@@ -27,23 +27,9 @@ void NoiseSurfaceSpiral2::setup(float r1, float r2, float turns, float DD1, floa
     float d = (r - r1) / dr;
     D += DD1 + d * DD;
 
-    float sx = -sinf(d * direction);
-    float cy = +cosf(d * direction);
-
-    points.emplace_back(sx * r, cy * r);
+    points.emplace_back(-sinf(d * direction) * r, +cosf(d * direction) * r);
   }
   while (D < L);
-
-
-  // ---
-
-  if (wireEnabled)
-  {
-    vertexBuffer.clear();
-    vertexBuffer.extendCapacity(points.size());
-  }
-
-  spline.clear();
 }
 
 void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, const glm::vec2 &offset)
@@ -52,9 +38,9 @@ void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, cons
     .setSamplingTolerance(samplingTolerance)
     .clear();
 
-  for (size_t i = 0, size = points.size(); i < size; i++)
+  for (const auto &point : points)
   {
-    const glm::vec3 p(points[i], height * surface.getHeight(points[i] + offset));
+    glm::vec3 p(point, height * surface.getHeight(point + offset));
     spline.add(p);
   }
 
@@ -69,7 +55,7 @@ void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, cons
 
     for (const auto &point : polyline)
     {
-      vertices.emplace_back(point);
+      vertices.push_back(point);
     }
   }
 
@@ -82,12 +68,12 @@ void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, cons
 
     path.begin();
 
-    for (size_t i = 0, size = polyline.size(); i < size; i++)
+    for (int i = 0, size = polyline.size(); i < size; i++)
     {
       const auto &p = polyline[i];
 
       glm::vec2 tangent;
-      glm::vec2 p0(p.xy());
+      glm::vec2 p0(p);
 
       if (i == size - 1)
       {
@@ -95,7 +81,7 @@ void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, cons
       }
       else
       {
-        glm::vec2 p1(polyline[i + 1].xy());
+        glm::vec2 p1(polyline[i + 1]);
         tangent = glm::normalize(p1 - p0);
       }
 
@@ -103,8 +89,8 @@ void NoiseSurfaceSpiral2::update(const NoiseSurface &surface, float height, cons
       glm::vec2 pm0(p0 + ortho * sampleSize * 0.5f);
       glm::vec2 pp0(p0 - ortho * sampleSize * 0.5f);
 
-      const glm::vec3 pm(pm0, height * surface.getHeight(pm0 + offset));
-      const glm::vec3 pp(pp0, height * surface.getHeight(pp0 + offset));
+      glm::vec3 pm(pm0, height * surface.getHeight(pm0 + offset));
+      glm::vec3 pp(pp0, height * surface.getHeight(pp0 + offset));
 
       path.add(p, glm::normalize(pp - pm));
       lastTangent = tangent;
