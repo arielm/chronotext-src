@@ -1,5 +1,4 @@
 #include "Sketch.h"
-
 #include "CinderCamera.h"
 
 using namespace std;
