@@ -9,10 +9,11 @@ Source code for the chronotext experiments:
 - [Cliffs](sketches/Cliffs)
 - [Water](sketches/Water)
 - [TopographicText](sketches/TopographicText)
+- [Steal](sketches/Steal)
 
 ***
 
-1. Unless the experiment has its own README file, follow [these instructions](https://arielm.github.io/cross-blog/2022/10/06/hello-world.html) for running on macOS or Linux, or [these instructions](https://arielm.github.io/cross-blog/2022/10/06/running-in-the-browser.html) for running in the browser.
+1. Unless the experiment has its own instructions, follow [these instructions](https://arielm.github.io/cross-blog/2022/10/06/hello-world.html) for running on macOS or Linux, or [these instructions](https://arielm.github.io/cross-blog/2022/10/06/running-in-the-browser.html) for running in the browser.
 
 2. Clone this repository with:
    ```
