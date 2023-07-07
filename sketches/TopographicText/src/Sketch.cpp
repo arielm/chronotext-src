@@ -16,6 +16,8 @@ static constexpr float TURNS = 50;
 static constexpr float DD1 = 2.5f;
 static constexpr float DD2 = 2.5f;
 
+static const string lang = "HE";
+
 Sketch::Sketch()
 :
 surface(400, 4, NOISE_SCALE, NOISE_OCTAVES, NOISE_SEED),
@@ -24,15 +26,35 @@ lineBatch(GL_LINE_STRIP, spiral.vertexBuffer)
 
 void Sketch::setup()
 {
-  auto lines = utils::readLines<u16string>(InputSource::resource("Isaiah_40.txt"));
+  string relativePath;
+  if (lang == "EN")
+  {
+    relativePath = "Isaiah_40_EN.txt";
+  }
+  else if (lang == "HE")
+  {
+    relativePath = "Isaiah_40.txt";
+  }
+
+  auto lines = utils::readLines<u16string>(InputSource::resource(relativePath));
   for (const auto &line : lines)
   {
     text += line + u" ";
   }
 
-  font = fontManager.getFont(InputSource::resource("FrankRuehl_Regular_64.fnt"), XFont::Properties3d());
-  font->setDirection(-1);
-  font->setSize(3);
+  if (lang == "EN")
+  {
+    font = fontManager.getFont(InputSource::resource("Georgia_Regular_64.fnt"), XFont::Properties3d());
+    font->setDirection(+1);
+    font->setSize(2.5f);
+  }
+  else if (lang == "HE")
+  {
+    font = fontManager.getFont(InputSource::resource("FrankRuehl_Regular_64.fnt"), XFont::Properties3d());
+    font->setDirection(-1);
+    font->setSize(3);
+  }
+
   font->setShader(textureAlphaShader);
   font->setColor(0, 0, 0, 1);
 
