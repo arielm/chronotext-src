@@ -1,0 +1,24 @@
+ABOUT
+
+a very experimental text recorder (the first in a long series of chronotext devices?)
+
+particularities:
+- tree structure.
+- curvature of the medium affected by type rate.
+
+utility: close to null *
+
+(*) except in the context of epistemology, surrealism and/or poetry...
+
+
+HELP
+
+when recording:
+
+- use the "enter" key to create a new branch.
+
+- use the left/right arrow keys to navigate between branches.
+
+- alternatively, use the history bar at the bottom to switch between the last edited branches.
+
+- intentionally, it is not possible to pause while recording (i.e. capturing the whole process is the key...)
