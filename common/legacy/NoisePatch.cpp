@@ -10,11 +10,6 @@ gridBatch(GL_LINES, vertexBuffer, gridIndexBuffer),
 fillBatch(GL_TRIANGLES, vertexBuffer, fillIndexBuffer)
 {}
 
-void NoisePatch::setFrontFace(GLenum mode)
-{
-  frontFace = mode;
-}
-
 void NoisePatch::setup(float cx, float cy, float w, float h, int mode)
 {
   ox1 = floorf(cx / surface->gridSize);
@@ -74,26 +69,13 @@ void NoisePatch::setup(float cx, float cy, float w, float h, int mode)
     {
       for (int ix = 0; ix < nx - 1; ix++)
       {
-        if (frontFace == CCW)
-        {
-          fillIndices.push_back(iy * nx + ix);
-          fillIndices.push_back(iy * nx + ix + 1);
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix);
+        fillIndices.push_back((iy + 1) * nx + ix);
+        fillIndices.push_back((iy + 1) * nx + ix + 1);
 
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-          fillIndices.push_back((iy + 1) * nx + ix);
-          fillIndices.push_back(iy * nx + ix);
-        }
-        else
-        {
-          fillIndices.push_back(iy * nx + ix);
-          fillIndices.push_back((iy + 1) * nx + ix);
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-          fillIndices.push_back(iy * nx + ix + 1);
-          fillIndices.push_back(iy * nx + ix);
-        }
+        fillIndices.push_back((iy + 1) * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix);
       }
     }
   }
@@ -109,6 +91,7 @@ void NoisePatch::update(float height, const glm::vec2 &offset)
   for (int iy = 0; iy < ny; iy++)
   {
     float y = (oy1 + iy) * surface->gridSize;
+
     for (int ix = 0; ix < nx; ix++)
     {
       float x = (ox1 + ix) * surface->gridSize;

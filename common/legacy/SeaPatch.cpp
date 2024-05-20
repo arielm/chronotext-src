@@ -15,11 +15,6 @@ SeaPatch::~SeaPatch()
   delete[] samples;
 }
 
-void SeaPatch::setFrontFace(GLenum mode)
-{
-  frontFace = mode;
-}
-
 void SeaPatch::setup(float ox, float oy, float w, float h, int gridSize, int mode)
 {
   this->ox = ox;
@@ -93,26 +88,13 @@ void SeaPatch::setup(float ox, float oy, float w, float h, int gridSize, int mod
     {
       for (int ix = 0; ix < nx - 1; ix++)
       {
-        if (frontFace == CCW)
-        {
-          fillIndices.push_back(iy * nx + ix);
-          fillIndices.push_back(iy * nx + ix + 1);
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix);
+        fillIndices.push_back((iy + 1) * nx + ix);
+        fillIndices.push_back((iy + 1) * nx + ix + 1);
 
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-          fillIndices.push_back((iy + 1) * nx + ix);
-          fillIndices.push_back(iy * nx + ix);
-        }
-        else
-        {
-          fillIndices.push_back(iy * nx + ix);
-          fillIndices.push_back((iy + 1) * nx + ix);
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-
-          fillIndices.push_back((iy + 1) * nx + ix + 1);
-          fillIndices.push_back(iy * nx + ix + 1);
-          fillIndices.push_back(iy * nx + ix);
-        }
+        fillIndices.push_back((iy + 1) * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix + 1);
+        fillIndices.push_back(iy * nx + ix);
       }
     }
   }
@@ -128,6 +110,7 @@ void SeaPatch::update(float t, float swellFactor)
   for (int iy = 0; iy < ny; iy++)
   {
     float yy = oy + iy * gridSize;
+
     for (int ix = 0; ix < nx; ix++)
     {
       float xx = ox + ix * gridSize;

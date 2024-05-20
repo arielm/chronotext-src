@@ -18,7 +18,6 @@ public:
   NoisePatch() = default;
   NoisePatch(NoiseSurface *surface);
 
-  void setFrontFace(GLenum mode);
   void setup(float cx, float cy, float w, float h, int mode);
   void update(float height, const glm::vec2 &offset);
 
@@ -34,8 +33,6 @@ protected:
 
   chr::gl::IndexedVertexBatch<> gridBatch;
   chr::gl::IndexedVertexBatch<> fillBatch;
-
-  GLenum frontFace = chr::CCW;
 
   int nx, ny;
   float ox1, oy1;

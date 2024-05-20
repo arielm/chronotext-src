@@ -19,7 +19,6 @@ public:
   SeaPatch(SeaSurface *surface);
   ~SeaPatch();
 
-  void setFrontFace(GLenum mode);
   void setup(float ox, float oy, float w, float h, int gridSize, int mode);
   void update(float t, float swellFactor);
 
@@ -31,8 +30,6 @@ protected:
   float ox, oy;
   int gridSize;
   int nx, ny;
-
-  GLenum frontFace = chr::CCW;
 
   chr::gl::Buffer<chr::gl::Vertex<>> vertexBuffer;
   chr::gl::Buffer<GLuint> gridIndexBuffer;
