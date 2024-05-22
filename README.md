@@ -4,13 +4,29 @@ Based on [chronotext-cross](https://github.com/arielm/chronotext-cross) for infr
 
 Source code for the chronotext experiments:
 - [TextNoise](sketches/TextNoise)
-- [SpiralLandscape](sketches/SpiralLandscape)
+- [Spiral Landscape](sketches/SpiralLandscape)
 - [Desert](sketches/Desert)
 - [Cliffs](sketches/Cliffs)
 - [Water](sketches/Water)
-- [TopographicText](sketches/TopographicText)
+- [Topographic Text](sketches/TopographicText)
 - [Steal](sketches/Steal)
-- [FourtyFive](sketches/FourtyFive)
+- [Fourty Five](sketches/FourtyFive)
+- [Babel Tower](sketches/BabelTower)
+- [The Text Time Curvature](sketches/TTC)
+- [The Book of Sand](sketches/BookOfSand)
+- [Sliding Text](sketches/SlidingText)
+- [Turn Table](sketches/TurnTable)
+- [Laser Guided](sketches/LaserGuided)
+- [Height Variation](sketches/HeightVariation)
+- [Straight in the Desert](sketches/StraightInTheDesert)
+- [Javascriptorium](sketches/JS)
+- [Ho Tokyo, Tokyo](sketches/Tokyo)
+- [Rock Around the Bunker](sketches/Branly)
+- [From Weimar to Kingston](sketches/TokyoBehind)
+- [Décamouflé de Branly](sketches/BranlyBehind)
+- [The War of the Words](sketches/WarOfTheWords)
+- [Twitter Maze](sketches/TwitterMaze)
+- [Lui les Hébreux Moi Pharaon](sketches/Chanson)
 
 ***
 
