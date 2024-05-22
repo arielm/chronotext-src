@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="3170701" sampleCount="577507">
+	<Lines>
+		<Line offset="9801"/>
+		<Line offset="19378"/>
+		<Line offset="34120"/>
+		<Line offset="38995"/>
+		<Line offset="49073"/>
+		<Line offset="66067"/>
+		<Line offset="71337"/>
+		<Line offset="94391"/>
+		<Line offset="106017"/>
+		<Line offset="110888"/>
+		<Line offset="120977"/>
+		<Line offset="136979"/>
+		<Line offset="206137"/>
+		<Line offset="211751"/>
+		<Line offset="235299"/>
+		<Line offset="250516"/>
+		<Line offset="255263"/>
+		<Line offset="275759"/>
+		<Line offset="285036"/>
+		<Line offset="295728"/>
+		<Line offset="317591"/>
+		<Line offset="323865"/>
+		<Line offset="329801"/>
+		<Line offset="343707"/>
+		<Line offset="370417"/>
+		<Line offset="415266"/>
+		<Line offset="424606"/>
+		<Line offset="430200"/>
+		<Line offset="452971"/>
+		<Line offset="514555"/>
+		<Line offset="525822"/>
+		<Line offset="551861"/>
+	</Lines>
+	<Words>
+        <Verse>
+            <Word lineIndex="1" text="Je"/>
+            <Word lineIndex="2" text="suivis"/>
+            <Word lineIndex="3" text="ce"/>
+            <Word lineIndex="4" text="mauvais"/>
+            <Word lineIndex="5" text="garçon"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="6" text="Qui"/>
+            <Word lineIndex="7" text="sifflotait"/>
+            <Word lineIndex="8" text="mains"/>
+            <Word lineIndex="9" text="dans"/>
+            <Word lineIndex="10" text="les"/>
+            <Word lineIndex="11" text="poches"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="13" text="Nous"/>
+            <Word lineIndex="14" text="semblions"/>
+            <Word lineIndex="15" text="entre"/>
+            <Word lineIndex="16" text="les"/>
+            <Word lineIndex="17" text="maisons"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="19" text="Onde"/>
+            <Word lineIndex="20" text="ouverte"/>
+            <Word lineIndex="21" text="de"/>
+            <Word lineIndex="22" text="la"/>
+            <Word lineIndex="23" text="Mer"/>
+            <Word lineIndex="24" text="Rouge"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="26" text="Lui"/>
+            <Word lineIndex="27" text="les"/>
+            <Word lineIndex="28" text="Hébreux"/>
+            <Word lineIndex="30" text="moi"/>
+            <Word lineIndex="31" text="Pharaon"/>
+        </Verse>
+	</Words>
+</Stanza>

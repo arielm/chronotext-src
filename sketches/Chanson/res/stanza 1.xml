@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="888096" sampleCount="659067">
+	<Lines>
+		<Line offset="15591"/>
+		<Line offset="18943"/>
+		<Line offset="25541"/>
+		<Line offset="49370"/>
+		<Line offset="62355"/>
+		<Line offset="91392"/>
+		<Line offset="96709"/>
+		<Line offset="138027"/>
+		<Line offset="138939"/>
+		<Line offset="152952"/>
+		<Line offset="192974"/>
+		<Line offset="242810"/>
+		<Line offset="248361"/>
+		<Line offset="254934"/>
+		<Line offset="272702"/>
+		<Line offset="275683"/>
+		<Line offset="280392"/>
+		<Line offset="308615"/>
+		<Line offset="317770"/>
+		<Line offset="325191"/>
+		<Line offset="369617"/>
+		<Line offset="387538"/>
+		<Line offset="406096"/>
+		<Line offset="412855"/>
+		<Line offset="441782"/>
+		<Line offset="512208"/>
+		<Line offset="520699"/>
+		<Line offset="544785"/>
+		<Line offset="557058"/>
+		<Line offset="567569"/>
+		<Line offset="618438"/>
+	</Lines>
+	<Words>
+        <Verse>
+            <Word lineIndex="1" text="Et"/>
+            <Word lineIndex="2" text="je"/>
+            <Word lineIndex="3" text="chantais"/>
+            <Word lineIndex="4" text="cette"/>
+            <Word lineIndex="5" text="romance"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="6" text="En"/>
+            <Word lineIndex="7" text="1903"/>
+            <Word lineIndex="9" text="sans"/>
+            <Word lineIndex="10" text="savoir"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="12" text="Que"/>
+            <Word lineIndex="13" text="mon"/>
+            <Word lineIndex="14" text="amour"/>
+            <Word lineIndex="15" text="à"/>
+            <Word lineIndex="16" text="la"/>
+            <Word lineIndex="17" text="semblance"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="18" text="Du"/>
+            <Word lineIndex="19" text="beau"/>
+            <Word lineIndex="20" text="Phénix"/>
+            <Word lineIndex="21" text="s'il"/>
+            <Word lineIndex="22" text="meurt"/>
+            <Word lineIndex="23" text="un"/>
+            <Word lineIndex="24" text="soir"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="26" text="Le"/>
+            <Word lineIndex="27" text="matin"/>
+            <Word lineIndex="28" text="voit"/>
+            <Word lineIndex="29" text="sa"/>
+            <Word lineIndex="30" text="renaissance"/>
+        </Verse>
+    </Words>
+</Stanza>

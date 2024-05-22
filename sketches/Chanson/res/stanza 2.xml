@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="2552352" sampleCount="557657">
+	<Lines>
+		<Line offset="8669"/>
+		<Line offset="19169"/>
+		<Line offset="40299"/>
+		<Line offset="47485"/>
+		<Line offset="75277"/>
+		<Line offset="78424"/>
+		<Line offset="104119"/>
+		<Line offset="166261"/>
+		<Line offset="174438"/>
+		<Line offset="187348"/>
+		<Line offset="195147"/>
+		<Line offset="214943"/>
+		<Line offset="219980"/>
+		<Line offset="224625"/>
+		<Line offset="244773"/>
+		<Line offset="253571"/>
+		<Line offset="259523"/>
+		<Line offset="265434"/>
+		<Line offset="300094"/>
+		<Line offset="373917"/>
+		<Line offset="378451"/>
+		<Line offset="383523"/>
+		<Line offset="403519"/>
+		<Line offset="415277"/>
+		<Line offset="421493"/>
+		<Line offset="441693"/>
+		<Line offset="447909"/>
+		<Line offset="463060"/>
+		<Line offset="485203"/>
+		<Line offset="491677"/>
+		<Line offset="508900"/>
+		<Line offset="515115"/>
+		<Line offset="540496"/>
+	</Lines>
+	<Words>
+        <Verse>
+            <Word lineIndex="1" text="Un"/>
+            <Word lineIndex="2" text="soir"/>
+            <Word lineIndex="3" text="de"/>
+            <Word lineIndex="4" text="demi-brume"/>
+            <Word lineIndex="5" text="à"/>
+            <Word lineIndex="6" text="Londres"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="8" text="Un"/>
+            <Word lineIndex="9" text="voyou"/>
+            <Word lineIndex="10" text="qui"/>
+            <Word lineIndex="11" text="ressemblait"/>
+            <Word lineIndex="12" text="à"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="13" text="Mon"/>
+            <Word lineIndex="14" text="amour"/>
+            <Word lineIndex="15" text="vint"/>
+            <Word lineIndex="16" text="à"/>
+            <Word lineIndex="17" text="ma"/>
+            <Word lineIndex="18" text="rencontre"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="20" text="Et"/>
+            <Word lineIndex="21" text="le"/>
+            <Word lineIndex="22" text="regard"/>
+            <Word lineIndex="23" text="qu'il"/>
+            <Word lineIndex="24" text="me"/>
+            <Word lineIndex="25" text="jeta"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="26" text="Me"/>
+            <Word lineIndex="27" text="fit"/>
+            <Word lineIndex="28" text="baisser"/>
+            <Word lineIndex="29" text="les"/>
+            <Word lineIndex="30" text="yeux"/>
+            <Word lineIndex="31" text="de"/>
+            <Word lineIndex="32" text="honte"/>
+        </Verse>
+	</Words>
+</Stanza>
+

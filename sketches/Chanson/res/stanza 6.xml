@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="5039451" sampleCount="465601">
+	<Lines>
+		<Line offset="4854"/>
+		<Line offset="20204"/>
+		<Line offset="27675"/>
+		<Line offset="41599"/>
+		<Line offset="62976"/>
+		<Line offset="68436"/>
+		<Line offset="93213"/>
+		<Line offset="96066"/>
+		<Line offset="103564"/>
+		<Line offset="111430"/>
+		<Line offset="126888"/>
+		<Line offset="155135"/>
+		<Line offset="174434"/>
+		<Line offset="193354"/>
+		<Line offset="206915"/>
+		<Line offset="226929"/>
+		<Line offset="230757"/>
+		<Line offset="246834"/>
+		<Line offset="253505"/>
+		<Line offset="261598"/>
+		<Line offset="289924"/>
+		<Line offset="335767"/>
+		<Line offset="342882"/>
+		<Line offset="393100"/>
+		<Line offset="397315"/>
+		<Line offset="421363"/>
+		<Line offset="422264"/>
+		<Line offset="453307"/>
+	</Lines>
+	<Words>
+		<Verse>
+			<Word lineIndex="1" text="C'était"/>
+			<Word lineIndex="2" text="son"/>
+			<Word lineIndex="3" text="regard"/>
+			<Word lineIndex="4" text="d'inhumaine"/>
+		</Verse>
+		<Verse>
+			<Word lineIndex="5" text="La"/>
+			<Word lineIndex="6" text="cicatrice"/>
+			<Word lineIndex="7" text="à"/>
+			<Word lineIndex="8" text="son"/>
+			<Word lineIndex="9" text="cou"/>
+			<Word lineIndex="10" text="nu"/>
+		</Verse>
+		<Verse>
+			<Word lineIndex="12" text="Sortit"/>
+			<Word lineIndex="13" text="saoule"/>
+			<Word lineIndex="14" text="d'une"/>
+			<Word lineIndex="15" text="taverne"/>
+		</Verse>
+		<Verse>
+			<Word lineIndex="16" text="Au"/>
+			<Word lineIndex="17" text="moment"/>
+			<Word lineIndex="18" text="où"/>
+			<Word lineIndex="19" text="je"/>
+			<Word lineIndex="20" text="reconnus"/>
+		</Verse>
+		<Verse>
+			<Word lineIndex="22" text="La"/>
+			<Word lineIndex="23" text="fausseté"/>
+			<Word lineIndex="24" text="de"/>
+			<Word lineIndex="25" text="l'amour"/>
+			<Word lineIndex="27" text="même"/>
+		</Verse>
+	</Words>
+</Stanza>

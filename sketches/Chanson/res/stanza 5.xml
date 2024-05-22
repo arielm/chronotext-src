@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="4475724" sampleCount="540086">
+	<Lines>
+		<Line offset="10148"/>
+		<Line offset="17970"/>
+		<Line offset="31828"/>
+		<Line offset="43846"/>
+		<Line offset="56113"/>
+		<Line offset="74928"/>
+		<Line offset="80730"/>
+		<Line offset="85246"/>
+		<Line offset="89868"/>
+		<Line offset="96993"/>
+		<Line offset="100973"/>
+		<Line offset="108098"/>
+		<Line offset="134610"/>
+		<Line offset="171515"/>
+		<Line offset="181213"/>
+		<Line offset="186489"/>
+		<Line offset="208998"/>
+		<Line offset="242478"/>
+		<Line offset="247599"/>
+		<Line offset="256166"/>
+		<Line offset="277736"/>
+		<Line offset="283106"/>
+		<Line offset="315595"/>
+		<Line offset="382500"/>
+		<Line offset="393389"/>
+		<Line offset="425637"/>
+		<Line offset="485118"/>
+		<Line offset="493827"/>
+		<Line offset="532521"/>
+	</Lines>
+	<Words>
+        <Verse>
+            <Word lineIndex="1" text="Au"/>
+            <Word lineIndex="2" text="tournant"/>
+            <Word lineIndex="3" text="d'une"/>
+            <Word lineIndex="4" text="rue"/>
+            <Word lineIndex="5" text="brûlant"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="6" text="De"/>
+            <Word lineIndex="7" text="tous"/>
+            <Word lineIndex="8" text="les"/>
+            <Word lineIndex="9" text="feux"/>
+            <Word lineIndex="10" text="de"/>
+            <Word lineIndex="11" text="ses"/>
+            <Word lineIndex="12" text="façades"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="14" text="Plaies"/>
+            <Word lineIndex="15" text="du"/>
+            <Word lineIndex="16" text="brouillard"/>
+            <Word lineIndex="17" text="sanguinolent"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="18" text="Où"/>
+            <Word lineIndex="19" text="se"/>
+            <Word lineIndex="20" text="lamentaient"/>
+            <Word lineIndex="21" text="les"/>
+            <Word lineIndex="22" text="façades"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="24" text="Une"/>
+            <Word lineIndex="25" text="femme"/>
+            <Word lineIndex="27" text="lui"/>
+            <Word lineIndex="28" text="ressemblant"/>
+        </Verse>
+	</Words>
+</Stanza>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stanza shift="3827603" sampleCount="551428">
+	<Lines>
+		<Line offset="11551"/>
+		<Line offset="15422"/>
+		<Line offset="22358"/>
+		<Line offset="43812"/>
+		<Line offset="53376"/>
+		<Line offset="68145"/>
+		<Line offset="75904"/>
+		<Line offset="100031"/>
+		<Line offset="110725"/>
+		<Line offset="114858"/>
+		<Line offset="120720"/>
+		<Line offset="129717"/>
+		<Line offset="139319"/>
+		<Line offset="150640"/>
+		<Line offset="166105"/>
+		<Line offset="224832"/>
+		<Line offset="231259"/>
+		<Line offset="242323"/>
+		<Line offset="247101"/>
+		<Line offset="268036"/>
+		<Line offset="297744"/>
+		<Line offset="310248"/>
+		<Line offset="346129"/>
+		<Line offset="359159"/>
+		<Line offset="384958"/>
+		<Line offset="430650"/>
+		<Line offset="441857"/>
+		<Line offset="446722"/>
+		<Line offset="452874"/>
+		<Line offset="458450"/>
+		<Line offset="470055"/>
+		<Line offset="501721"/>
+		<Line offset="536668"/>
+	</Lines>
+	<Words>
+        <Verse>
+            <Word lineIndex="1" text="Que"/>
+            <Word lineIndex="3" text="tombent"/>
+            <Word lineIndex="4" text="ces"/>
+            <Word lineIndex="5" text="vagues"/>
+            <Word lineIndex="6" text="de"/>
+            <Word lineIndex="7" text="briques"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="8" text="Si"/>
+            <Word lineIndex="9" text="tu"/>
+            <Word lineIndex="10" text="ne"/>
+            <Word lineIndex="11" text="fus"/>
+            <Word lineIndex="12" text="pas"/>
+            <Word lineIndex="13" text="bien"/>
+            <Word lineIndex="14" text="aimée"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="16" text="Je"/>
+            <Word lineIndex="17" text="suis"/>
+            <Word lineIndex="18" text="le"/>
+            <Word lineIndex="19" text="souverain"/>
+            <Word lineIndex="20" text="d'Égypte"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="21" text="Sa"/>
+            <Word lineIndex="22" text="sœur-épouse"/>
+            <Word lineIndex="23" text="son"/>
+            <Word lineIndex="24" text="armée"/>
+        </Verse>
+        <Verse>
+            <Word lineIndex="26" text="Si"/>
+            <Word lineIndex="27" text="tu"/>
+            <Word lineIndex="28" text="n'es"/>
+            <Word lineIndex="30" text="pas"/>
+            <Word lineIndex="31" text="l'amour"/>
+            <Word lineIndex="32" text="unique"/>
+        </Verse>
+    </Words>
+</Stanza>
