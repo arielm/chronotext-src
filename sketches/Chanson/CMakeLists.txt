@@ -61,7 +61,9 @@ set(SRC_FILES
 include("$ENV{CROSS_PATH}/core/cmake/sketch.cmake")
 include("$ENV{CROSS_PATH}/core/cmake/test.cmake")
 
-set_target_properties(${PROJECT_NAME} PROPERTIES
-  INSTALL_RPATH "${FMOD_ROOT}/lib"
-  BUILD_WITH_INSTALL_RPATH TRUE
-)
+if (PLATFORM MATCHES osx)
+  set_target_properties(${PROJECT_NAME} PROPERTIES
+    INSTALL_RPATH "${FMOD_ROOT}/lib"
+    BUILD_WITH_INSTALL_RPATH TRUE
+  )
+endif()
